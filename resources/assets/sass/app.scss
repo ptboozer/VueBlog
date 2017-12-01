@@ -1,6 +1,5 @@
-
 // Fonts
-// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 // Variables
 @import "variables";
@@ -12,4 +11,10 @@
 @import "node_modules/bulma/bulma";
 
 // Bulma Vue Modules
-@import 'node_modules/buefy/src/scss/buefy';
+@import "node_modules/buefy/src/scss/buefy";
+
+// Other SCSS Files
+@import "overrides";
+@import "helpers";
+@import "manage";
+@import "styles";
